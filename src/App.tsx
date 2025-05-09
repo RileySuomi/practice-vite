@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import IntroductionSection from './components/intro'
-import ShinyApp1 from './components/shiny'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,9 +10,8 @@ function App() {
   return (
     <>
       <div>
-        
+
         <IntroductionSection />
-        <ShinyApp1 />
 
 
         <a href="https://vite.dev" target="_blank">
